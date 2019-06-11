@@ -5,7 +5,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
+<!--
         <LinearLayout
             android:id="@+id/root_layout"
             android:layout_width="match_parent"
@@ -48,13 +48,13 @@
                     android:text="@string/done"/>
             </LinearLayout>
         </LinearLayout>
-
+-->
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recyclerview_task"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="6dp"
-            app:layout_constraintTop_toBottomOf="@+id/root_layout"/>
+            android:padding="6dp"/>
+           <!-- app:layout_constraintTop_toBottomOf="@+id/root_layout"/> -->
 
     </android.support.constraint.ConstraintLayout>
 </layout>

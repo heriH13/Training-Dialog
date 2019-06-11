@@ -3,4 +3,7 @@
     <string name="task">Task</string>
     <string name="add">Add</string>
     <string name="done">done</string>
+    <string name="action_setting">Setting</string>
+    <string name="button_close">X</string>
+    <string name="string_menu_add">Add</string>
 </resources>
